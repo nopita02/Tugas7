@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sederhana</title>
+    
+    <style>
+        /* Pengaturan Dasar Halaman */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+            color: #333; /* Teks utama abu-abu gelap */
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Kotak Kartu Profil Utama */
+        .profile-card {
+            background-color: #ffffff; /* Latar belakang kartu putih */
+            border: 1px solid #000000; /* Garis tepi hitam */
+            max-width: 400px;
+            width: 100%;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+            text-align: center;
+            
+            /* Sesuai permintaan: Sudut tajam */
+            border-radius: 0; 
+        }
+
+        /* Area Foto Profil */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            background-color: #e0e0e0; /* Warna placeholder jika tidak ada gambar */
+            border: 1px solid #000;
+            margin: 0 auto 20px auto;
+            
+            /* Sesuai permintaan: Sudut tajam */
+            border-radius: 0;
+            
+            /* Catatan: Jika Anda menggunakan tag <img>, tambahkan style ini ke <img> */
+            /* object-fit: cover; */
+        }
+        
+        /* Jika Anda punya file gambar, ganti <div> .profile-image dengan ini:
+        <img src="nama-file-foto.jpg" alt="Foto Profil" class="profile-image">
+        */
+
+        /* Nama */
+        h1 {
+            color: #000000; /* Teks hitam pekat */
+            margin: 0 0 5px 0;
+            font-size: 2em;
+        }
+
+        /* Jabatan atau Status */
+        h2 {
+            color: #555555; /* Abu-abu */
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            font-weight: normal;
+        }
+
+        /* Paragraf Bio */
+        .bio {
+            color: #333;
+            font-size: 1em;
+            line-height: 1.5;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Daftar Tautan Sosial Media */
+        .social-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-links li {
+            margin-bottom: 10px;
+        }
+
+        .social-links a {
+            display: block; /* Membuat tautan memenuhi lebar */
+            text-decoration: none;
+            color: #000000;
+            border: 1px solid #000000;
+            padding: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+            
+            /* Sesuai permintaan: Sudut tajam */
+            border-radius: 0;
+        }
+
+        /* Efek Hover pada Tautan */
+        .social-links a:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        
+        <img class="https://ibb.co.com/Sw853D36"><img src="https://i.ibb.co.com/Sw853D36/IMG-20250710-171352-137.jpg" alt="IMG-20250710-171352-137" border="0"></a>
+
+        <h1>Nama Anda</h1>
+        
+        <h2>siswi SMK aria cendekia</h2>
+
+        <p class="bio">
+            saya adalah siswi yang bertanggung jawab dan aktif dalam ekstrakulikuler pramuka dan badminton.
+        </p>
+        
+
+        <ul class="social-links">
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">Portofolio Web</a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
